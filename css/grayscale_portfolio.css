@@ -3,34 +3,9 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
- @font-face {
-  font-family: stark;
-  src: url("../fonts/stark/Stark.otf");
-}
 
 @font-face {
-  font-family: stark-bold;
-  src: url("../fonts/stark/StarkBold.otf");
-}
-
-@font-face {
-  font-family: stark-bold-italic;
-  src: url("../fonts/stark/StarkBoldItalic.otf");
-}
-
-@font-face {
-  font-family: stark-hollow;
-  src: url("../fonts/stark/StarkHollow.otf");
-}
-
-@font-face {
-  font-family: stark-hollow-italic;
-  src: url("../fonts/stark/StarkHollowItalic.otf");
-}
-
-@font-face {
-  font-family: stark-italic;
-  src: url("../fonts/stark/StarkItalic.otf");
+  font-family: serif;
 }
 
 #mainNav {
@@ -41,8 +16,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #8E172B;
-  border: 1px solid #8E172B;
+  color: #f6b4e5;
+  border: 1px solid #f6b4e5;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -50,12 +25,12 @@
 }
 
 #mainNav .navbar-brand {
-  font-family: stark;
+  font-family: 'Gelasio', serif;;
   font-size: 2rem;
   color: #ffffff;
   font-weight: 700;
   padding: .9rem 0;
-  -webkit-text-stroke: .5px #8E172B;
+  -webkit-text-stroke: .5px #f6b4e5;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -80,7 +55,7 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(207, 188, 202, 1);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
@@ -89,10 +64,10 @@
     color: rgba(255, 255, 255, 1);
   }
   #mainNav .nav-link:hover {
-    color: #B28027;
+    color: #fff;
   }
   #mainNav .nav-link:active {
-    color: white;
+    color: #fff;
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
@@ -101,20 +76,20 @@
     color: #ffffff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000000;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #8E172B;
+    color: #f6b4e5;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #8E172B;
+    color: #f6b4e5;
     outline: none;
-    border-bottom: 0.25rem solid #8E172B;
+    border-bottom: 0.25rem solid #f6b4e5;
   }
 }
 
@@ -124,8 +99,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  /*background-color: #634943;*/
-  background: url("../img/genesis.jpg");
+  background-color: #f6b4e5; /*dark purple color*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -133,7 +107,7 @@
 }
 
 .masthead h1 {
-  font-family: 'stark-italic';
+  font-family: 'Gelasio', serif;;
   font-size: 5rem;
   line-height: 6rem;
   letter-spacing: 0.8rem;
@@ -192,7 +166,7 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -200,20 +174,20 @@
 }
 
 .btn-primary {
-  background-color: #8E172B;
+  background-color: #5d325d;
 }
 
 .btn-primary:hover {
-  background-color: #B28027;
+  background-color: #000;
 }
 
 .btn-primary:focus {
-  background-color: #B28027;
+  background-color: #5d325d;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #B28027 !important;
+  background-color: #5d325d !important;
 }
 
 #profile-image {
@@ -222,7 +196,7 @@
 
 .about-section {
   padding-top: 10rem;
-  background-color: #8E172B;
+  background-color: #f6b4e5;
 }
 
 .about-section p {
@@ -230,13 +204,19 @@
 }
 
 .profile-image {
+  height: 50%;
+  width: 50%;
+  border-radius: 5%;
+}
+
+.cherry-icon {
   height: 25%;
   width: 25%;
   border-radius: 50%;
 }
 
 #projects {
-  padding: 50px;
+  padding: 20px;
 }
 
 .projects-section {
@@ -250,7 +230,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #8E172B;
+    border-left: 0.5rem solid #f6b4e5;
   }
 }
 
@@ -264,7 +244,7 @@
     padding: 5%;
   }
   .projects-section .project-text hr {
-    border-color: #8E172B;
+    border-color: #f6b4e5;
     border-width: .25rem;
     width: 30%;
   }
@@ -299,7 +279,7 @@
 }
 
 .text {
-  background-color: #8E172B;
+  background-color: #f6b4e5;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -312,7 +292,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -325,18 +305,18 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #8E172B;
+  border-bottom: 0.25rem solid #5d325d;
 }
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
 .contact-section .card hr {
-  border-color: #8E172B;
+  border-color: #5d325d;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -364,17 +344,17 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 0.0625em;
 }
 
 a {
-  color: #B28027;
+  color: #f6b4e5;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #8E172B;
+  color: #5d325d;
 }
 
 .bg-black {
@@ -382,11 +362,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #8E172B !important;
+  background-color: #5d325d !important;
 }
 
 .text-primary {
-  color: #8E172B !important;
+  color: #5d325d !important;
 }
 
 footer {
