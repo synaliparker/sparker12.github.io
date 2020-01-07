@@ -199,18 +199,27 @@
 }
 
 .about-section {
-  padding-top: 5rem;
+  padding-top: 2rem;
   background-color: #f6b4e5;
 }
 
 .about-section h2 {
   font-family: 'Permanent Marker', cursive;
   font-size: 50px;
-
+  padding-bottom: 50px;
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 50px;
+}
+
+.about-section p.text-white.about-text {
+  padding-bottom: 5px;
+}
+
+.tsm-logo {
+  height: 3%;
+  width: 3%;
 }
 
 .profile-image {
