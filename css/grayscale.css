@@ -199,7 +199,7 @@
 }
 
 .about-section {
-  padding-top: 2rem;
+  padding-top: 5rem;
   background-color: #f6b4e5;
 }
 
@@ -380,6 +380,19 @@ a:focus, a:hover {
 
 .text-primary {
   color: #5d325d !important;
+}
+
+.signature {
+  font-family:'Nothing You Could Do', cursive;
+  font-size: 25px;
+}
+
+.contact-link {
+  color: #5d325d;
+}
+
+.contact-link:focus, .contact-link:hover {
+  color: #f6b4e5;
 }
 
 footer {
